@@ -1,0 +1,8 @@
+CREATE TABLE users.users
+(
+    id         UUID PRIMARY KEY,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    deleted_at TIMESTAMP,
+    email      VARCHAR(1024) UNIQUE                NOT NULL
+);
