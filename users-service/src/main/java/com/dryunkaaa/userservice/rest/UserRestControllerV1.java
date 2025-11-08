@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class UserRestControllerV1 {
 
+    // TODO: add password field and security
     private final UserService userService;
 
     @GetMapping
