@@ -28,6 +28,6 @@ public class BaseEntity {
 
     @Column(name = "updated_at", nullable = false)
     @ColumnDefault("CURRENT_TIMESTAMP")
-    private Instant updateAt;
+    private Instant updatedAt;
 
 }
